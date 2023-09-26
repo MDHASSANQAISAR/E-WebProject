@@ -1,0 +1,653 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Roboto';
+    font-weight: 700;
+}
+
+/* Nav section start */
+
+.nav{
+    background-color: rgb(237, 136, 21);
+    z-index: 9;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    box-shadow: 0px 3px 65px 0px rgb(231, 8, 8); 
+}
+.nav_top {
+    position: fixed;
+    top:0;
+    right: 0;
+    left: 0;
+}
+.logo {
+    height: 70px;
+    float: left;
+    width: 60%;
+}
+.logo  img {
+    width: 100px;
+    height: 60px;
+    padding: 4px;
+}
+.nav_side {
+    margin-top: 20px;
+    float: right;
+    width: 40%;
+}
+.nav_side a {
+    text-decoration: none;
+    padding-right: 20px;
+    padding-top: 10px;
+    color: black;
+    font-weight: bold;
+    font-size: 17px; 
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+.nav_side a:hover{
+    color: orange;
+    text-decoration: underline;
+    transition: all 1s ease;
+
+}
+
+
+
+/* nav section end */
+
+
+
+
+/* main sectin start */
+.btn1{
+    margin-top: 30px;
+}
+.main {
+    background-image: url("bg.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 80vh;
+}
+
+.main .main_contant{
+   
+    padding-top:17% ;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+}
+.main .main_contant h2{
+    color:black;
+    font-size: 50px;
+    font-weight: bolder;
+    text-align: center;
+    line-height: 25px;
+    
+}
+.main .main_contant h2 span{
+   
+font-size: 25px;
+opacity: 0.9;
+color: white;
+font-weight: lighter;
+line-height: 20px;
+}
+ .main .main_contant .btn{
+
+    margin-top: 40px;
+} 
+
+.main .main_contant .btn a{
+   margin: 15px;
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: blueviolet;
+    color: black;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+} 
+.main .main_contant .btn a:hover {
+    color: orange;
+    background-color: black;
+    border-bottom: 4px solid orange;
+} 
+.product{
+    padding-bottom: 50px;
+}
+.product h2 {
+     color: black;
+     font-size: 35px;
+     text-align: center;
+     padding: 30px;
+
+}
+.product .product_container {
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+    
+}
+.product .product_container .item {
+    width: 33.33%;
+    margin: 10px;
+    height: auto;
+}
+.product .product_container .item:hover {
+    box-shadow: 0px 3px 65px 0px rgb(235, 4, 4);
+}
+.product .product_container .item .item_img {
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+    border: 3px solid red;
+}
+.product .product_container .item .item_img img{
+    width: 100%;
+    height: 250px;
+
+}
+.product .product_container .item .item_content {
+    text-align: center;
+}
+.product .product_container .item .item_content h3 {
+
+    padding: 10px;
+    font-size: 26px;
+    /* font-family: ; */
+}
+.product .product_container .item .item_content p {
+
+    padding: 10px;
+    font-size: 17px;
+  
+}
+
+.product .product_container .item .item_content a{
+   
+   margin: 15px;
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: blueviolet;
+    color: black;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+    
+}
+.product .product_container .item .item_content a:hover{
+    color: orange;
+    background-color: black;
+    border: none;
+    border-bottom: 4px solid orange;
+}
+ 
+
+.product .product_btn {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 14px;
+}
+.product .product_btn a {
+    text-decoration: none;
+    margin: 15px;
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: blueviolet;
+    color: black;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+}
+.product .product_btn a:hover{
+    color: orange;
+    background-color: black;
+    border: none;
+    border-bottom: 4px solid orange;
+}
+
+.keypoint {
+    padding: 50px;
+
+}
+.keypoint h2 {
+    color: black;
+     font-size: 35px;
+     text-align: center;
+     padding: 10px;
+}
+.keypoint .key_container {
+    display: flex;
+}
+.keypoint .key_container .key_content {
+    width: 40%;
+    padding: 20px;
+    float: left;
+}
+.keypoint .key_container .key_content li{
+    list-style: none;
+    margin: 10px;
+    padding: 10px;
+    border-left:2px solid rgb(195, 15, 84) ;
+    color: black;
+    box-shadow: 0px 3px 65px 0px rgb(7, 31, 215);
+}
+.keypoint .key_container .key_img {
+    width: 40%;
+    float: right;
+    margin-left: 100px;
+}
+.keypoint .key_container .key_img img {
+    width: 100%;
+    margin-top: 30px;
+
+}
+.testi {
+    padding: 50px;
+}
+.testi h2 {
+    color: black;
+    font-size: 35px;
+    text-align: center;
+    padding: 10px;
+    text-transform: uppercase;
+}
+.testi .testi_container {
+    margin-right:10%;
+    margin-left: 10%;
+    text-align: center;
+}
+
+
+.testi .testi_container .item .carousel-inner {
+    background-color: white;
+    box-shadow: none;
+}
+
+.testi .testi_container .item {
+    width: 100%;
+    padding: 20px;
+    background-color: rgba(7, 221, 79, 0.614);
+    box-shadow: none;
+}
+
+.testi .testi_container .item .item_img {
+
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    overflow: hidden;
+}
+
+
+
+
+
+.testi .testi_container .item .item_img img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    /* margin-top: 100px; */
+}
+
+
+.testi .testi_container .item .item_content {
+    text-align: center;
+}
+.testi .testi_container .item .item_content h3 {
+    padding: 10px;
+    font-size: 25px;
+
+
+}
+.testi .testi_container .item .item_content p {
+    padding: 10px;
+    font-size: 15px;
+
+
+}
+.team {
+    padding: 50px;
+}
+.team h2{
+    color: black;
+    font-size: 35px;
+    text-align: center;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+.team .team_container {
+    display: flex;
+}
+
+.team .team_container .team_video {
+    width: 50%;
+    padding: 20px;
+}
+.team .team_container .team_video video {
+    width: 100%;
+    border: 10px solid orange;
+  
+   height: 300px;
+    
+}
+
+
+
+
+.team .team_container .team_content {
+    width: 30%;
+    padding: 20px;
+    margin-left: 50px;
+}
+.team .team_container .team_content p{
+    padding: 10px;
+    font-size: 17px;
+}
+
+
+
+.feed{
+    background-color: brown;
+    padding: 50px;
+}
+
+.feed h2{
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    padding: 10px;
+}
+
+.feed .feed_form {
+    text-align: center;
+}
+.feed .feed_form form {
+    padding: 20px;
+}
+
+.feed .feed_form form input{
+    width: 30%;
+    margin: 5px;
+    padding: 10px;
+    outline: none;
+    border: none; 
+}
+
+
+.feed .feed_form form textarea{
+    width: 30%;
+    margin: 5px;
+    padding: 10px;
+    outline: none;
+    border: none; 
+}
+
+
+.feed .feed_form form button {
+    width: 30%;
+    margin: 5px;
+    padding: 10px;
+    outline: none;
+    border: none; 
+    background-color: purple;
+    border-radius: 5px;
+    color: white;
+}
+.feed .feed_form form button:hover{
+
+    color: green;
+    background-color: black;
+}
+
+.about_us{
+    padding: 100px;
+}
+.about_us h2{
+    color: rgb(166, 8, 8);
+    font-size: 35px;
+    text-align: center;
+    padding: 10px;
+    text-transform: uppercase;
+}
+.about_us p{
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 40px;
+}
+
+
+.contact_container {
+    padding: 100px;
+ 
+    
+}
+
+.contact_container h2{
+    color: rgb(166, 8, 8);
+    font-size: 35px;
+    text-align: center;
+    padding: 10px;
+    text-transform: uppercase;
+}
+.contact_container .g_map{
+
+    border: 10px solid orange;
+}
+
+.contact_container .contact_content {
+    padding: 20px;
+}
+
+.contact_container .contact_content p {
+    padding: 10px;
+    font-size: 20px;
+    
+    line-height: 40px;
+}
+
+footer{
+    background-color: #99A3A4;
+   
+    color: black;
+    padding: 50px;
+}
+
+footer .footer_logo img{
+    width: 100px;
+    height: 100px;
+}
+
+
+footer .pages {
+    text-align: center;
+}
+footer .pages h3{
+    color: rgb(36, 4, 219);
+    font-size: 20px;
+    padding: 5px;
+}
+footer .pages a {
+    margin: 10px;
+    font-size: 20px;
+    color: orange;
+    text-decoration: none;
+
+}
+footer .pages a:hover {
+    color: black;
+}
+
+
+
+
+footer .doc {
+    text-align: center;
+}
+footer .doc h3{
+    color: rgb(36, 4, 219);
+    font-size: 20px;
+    padding: 5px;
+}
+footer .doc a {
+    margin: 10px;
+    font-size: 20px;
+    color: orange;
+    text-decoration: none;
+
+}
+footer .doc a:hover {
+    color: black;
+}
+
+footer .social {
+    text-align: center;
+}
+footer .social h3{
+    color: rgb(36, 4, 219);
+    font-size: 20px;
+    padding: 5px; 
+}
+
+footer .Contact {
+    text-align: center;
+}
+footer .Contact h3{
+    color: rgb(36, 4, 219);
+    font-size: 20px;
+    padding: 5px; 
+}
+
+footer .social a {
+    font-size: 30px;
+    margin: 10px;
+    
+} 
+footer .social a:hover{
+    color: black;
+}
+
+
+footer .Contact a {
+    font-size: 30px;
+    margin: 10px;
+    
+} 
+footer .Contact a:hover{
+    color: black;
+}
+
+.service_c{
+    padding: 100px;
+}
+
+
+
+
+/* register form */
+
+
+
+.register_form {
+    padding: 100px;
+}
+
+
+
+
+
+.register_form .register_container {
+    text-align: center;
+    background-color: rgb(229, 143, 143);
+   
+    padding: 40px;
+}
+
+.register_form .register_container .register_content{
+    margin: 20px;
+    padding: 10px;
+}
+.register_form .register_container .register_content input{
+    margin:10px;
+    padding: 10px;
+    width: 300px;
+    margin-left: 40px;
+    border: none;
+    background-color: rgb(239, 140, 11);
+}
+
+.register_form .register_container .register_content label{
+    font-size: large;
+    margin-left: 30px;
+   
+}
+.register_form .register_container .register_content button {
+    padding: 10px;
+    margin-left: 100px;
+    margin-top: 20px;
+    color: black;
+    font-weight: 700;
+    background-color: rgb(221, 180, 17);
+}
+
+/* login page css */
+
+.login_container {
+
+    background-color: darkred;
+    text-align: center;
+    padding-top: 100px;
+    margin-left:300px ;
+    margin-right: 300px;
+    margin-top: 20px;
+  
+   
+}
+
+.login_container .login_content h2{
+    color: white;
+   
+} 
+.login_container .login_content .login_form {
+  
+   margin: 70px 40px 10px 70px;
+   padding: 20px;
+}
+.login_container .login_content .login_form input {
+    width: 400px;
+    margin: 10px;
+    padding: 10px;
+}
+.login_container .login_content .btn_form {
+    display: flex;
+    
+    margin-left:82px ;
+    margin-right: 82px;
+}
+.login_container .login_content .btn_form input {
+    width: 100px;
+   background-color: rgb(93, 219, 16);
+    
+    
+}
+.login_container .login_content .btn_form a {
+  text-decoration: none;
+  margin-left: 160px
+  
+}
+.login_container .login_content .btn_form a p {
+    font-weight: 600;
+    border: 1px solid black;
+    padding: 10px;
+    background-color: coral;
+}
